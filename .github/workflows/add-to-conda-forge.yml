@@ -7,23 +7,23 @@ on:
       name:
         type: string
         description: PyPi package name
-        default: 'criclive'
+        default: ''
       github-username:
         type: string
         description: GitHub Username
-        default: 'aktech'
+        default: 'pmeier'
       upstream-github-account:
         type: string
         description: Upstream github username (conda-forge)
-        default: 'aktech'
+        default: 'pmeier'
       git-name:
         type: string
         description: Git config Name
-        default: 'Amit Kumar'
+        default: 'Philip Meier'
       git-email:
         type: string
         description: Git config Email
-        default: 'dtu.amit@gmail.com'
+        default: 'pmeier@quansight.com'
 
 jobs:
   build:
